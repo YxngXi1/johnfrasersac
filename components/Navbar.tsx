@@ -9,7 +9,7 @@ import More from "./navbarMore";
 
 const links = [
   { name: "Announcements", href: "/announcements" },
-  { name: "SAC Opportunities", href: "/opportunities" },
+  { name: "SAC Events", href: "/opportunities" },
   { name: "Clubs", href: "/clubs" },
   { name: "Our Team", href: "/team" },
   { name: "FraserTickets", href: "https://tickets.aritrosaha.ca/" },
