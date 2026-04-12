@@ -1,4 +1,4 @@
-'use client'; // Ensures this component is client-side rendered.
+'use client';
 
 import React from 'react';
 import CountingAnimation from '@/components/Counting';
@@ -35,7 +35,7 @@ const OPPORTUNITIES: Opportunity[] = [
     id: 3,
     title: 'Fraser Games',
     date: 'March 9th-13th, 2026',
-    description: 'Fraser Games brought the energy this year, uniting Jags in a week-long celebration of rivalry and collaboration! Throughout the week, teams competed to earn points and battled for the Fraser Champions title. Thank you to everyone who participated and showed their spirit, it was an unforgettable event full of excitement, teamwork, and school pride!',
+    description: 'What a week, Jags! Fraser Games was a massive success, bringing rivalry and collaboration together as teams scored points throughout the event. There was a fierce competition to see who could win it all during the many games throughout the school. Congratulations to our new Fraser Champions!',
     imageSrc: '/opportunities/frasergame.jpg',
     imageAlt: 'Fraser Games',
   },
@@ -133,8 +133,8 @@ const Page = () => {
   return (
     <main className='overflow-hidden'>
       <div
-        className='custom-background-4 flex flex-col justify-center items-center text-center py-30 pt-10'
-        style={{ height: '50.3333vh' }}
+        className='custom-background-4 flex flex-col justify-center items-center text-center px-4 pt-44 pb-20 lg:pt-52'
+        style={{ minHeight: '50.3333vh' }}
       >
         <div className='container w-11/12 text-white' data-aos="fade-up">
           <h1 className='font-bold lg:text-6xl text-[40px] mb-10'>SAC Opportunities</h1>
